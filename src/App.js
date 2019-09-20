@@ -3,6 +3,7 @@ import Header from "./components/Header.js";
 import CharacterList from "./components/CharacterList.js";
 import { Route, NavLink } from "react-router-dom";
 import WelcomePage from "./components/WelcomePage";
+import CharacterDetails from "./components/CharacterDetails.js";
 export default function App() {
   return (
     <main>
