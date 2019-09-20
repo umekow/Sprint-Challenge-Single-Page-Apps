@@ -3,7 +3,7 @@ import Header from "./components/Header.js";
 import CharacterList from "./components/CharacterList.js";
 import { Route, NavLink } from "react-router-dom";
 import WelcomePage from "./components/WelcomePage";
-import CharacterDetails from "./components/CharacterDetails.js";
+import CharacterCard from "./components/CharacterCard";
 export default function App() {
   return (
     <main>
@@ -16,6 +16,7 @@ export default function App() {
       </button>
       <Route exact path="/" component={WelcomePage} />
       <Route exact path="/characters" component={CharacterList} />
+      <Route path="/characters/:id" component={CharacterCard} />
     </main>
   );
 }

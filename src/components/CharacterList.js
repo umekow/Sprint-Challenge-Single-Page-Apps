@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import CharacterCard from "./CharacterCard";
 import SearchForm from "./SearchForm";
+import { Route } from "react-router-dom";
+import CharacterDetails from "./CharacterDetails";
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect
 
@@ -14,10 +16,16 @@ export default function CharacterList() {
     });
   }, []);
 
+  const searchUrl = name => {
+    const result = data.filter(character => character.name === name);
+
+    console.log(result);
+  };
+
   return (
     <section className="character-list">
       <h2>Characters</h2>
-      <SearchForm />
+      <SearchForm searchUrl={searchUrl} />
       <div>
         {data.map(item => (
           <CharacterCard
