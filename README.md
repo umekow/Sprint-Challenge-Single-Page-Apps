@@ -39,11 +39,11 @@ Follow these steps to set up and work on your project:
 - [x] Add TL as collaborator on GitHub.
 - [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [x] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on this branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
-- [ ] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
-- [ ] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
-- [ ] **RUN** `yarn start` or `npm start` to fire up your React application.
+- [x] Implement the project on this branch, committing changes regularly.
+- [x] Push commits: `git push origin <firstName-lastName>`.
+- [x] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
+- [x] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
+- [x] **RUN** `yarn start` or `npm start` to fire up your React application.
 
 ### Exceeded rate limits?
 
@@ -69,8 +69,8 @@ You can still be locked out - watch your [chrome devtools' network panel](https:
 
 _Display Data from a Server API_
 
-- [ ] Fetch a list of characters from the Rick and Morty API's Characters endpoint *`https://rickandmortyapi.com/api/character/`* and render them to the screen.
-- [ ] You must display at least one element for each character.
+- [x] Fetch a list of characters from the Rick and Morty API's Characters endpoint *`https://rickandmortyapi.com/api/character/`* and render them to the screen.
+- [x] You must display at least one element for each character.
 
 _Add a Router to this application using [React Router](https://reacttraining.com/react-router/web/guides/quick-start)._
 
